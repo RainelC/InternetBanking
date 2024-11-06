@@ -9,7 +9,9 @@
   <ItemGroup>
     <Folder Include="Mappings\" />
     <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Beneficiary\" />
+    <Folder Include="ViewModels\Transaction\" />
+    <Folder Include="ViewModels\Product\" />
   </ItemGroup>
 
   <ItemGroup>

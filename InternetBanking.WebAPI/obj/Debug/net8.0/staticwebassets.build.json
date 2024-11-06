@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+OnPYke47XlF93oSjQFYmp4ZfqlJCXW4NJlM2JGrIcs=",
+  "Source": "InternetBanking.WebAPI",
+  "BasePath": "_content/InternetBanking.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
