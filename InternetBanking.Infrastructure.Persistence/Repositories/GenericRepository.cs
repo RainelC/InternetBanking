@@ -1,15 +1,10 @@
 ﻿using InternetBanking.Core.Application.Interfaces.Repositories;
 using InternetBanking.Infrastructure.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InternetBanking.Infrastructure.Persistence.Repositories
 {
-    internal class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : class
+    public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : class
     {
         private readonly AppDbContext _dbContext;
 
@@ -18,15 +13,17 @@ namespace InternetBanking.Infrastructure.Persistence.Repositories
 
             _dbContext = context;
         }
-        public virtual async Task AddAsync(Entity entity)
+        public virtual async Task<Entity> AddAsync(Entity entity)
         {
             await _dbContext.Set<Entity>().AddAsync(entity);
             await _dbContext.SaveChangesAsync();
+            return entity;
         }
 
-        public virtual async Task UpdateAsync(Entity entity)
+        public virtual async Task UpdateAsync(Entity entity, int Id)
         {
-            _dbContext.Entry(entity).State = EntityState.Modified;
+            Entity entry = await _dbContext.Set<Entity>().FindAsync(Id);
+            _dbContext.Entry(entry).CurrentValues.SetValues(entity);
             await _dbContext.SaveChangesAsync();
         }
 

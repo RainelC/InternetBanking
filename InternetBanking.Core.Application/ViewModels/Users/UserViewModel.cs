@@ -1,6 +1,7 @@
 ﻿using InternetBanking.Core.Domain.Entities;
 
-namespace InternetBanking.Core.Application.ViewModels.User
+
+namespace InternetBanking.Core.Application.ViewModels.Users
 {
     public class UserViewModel
     {
