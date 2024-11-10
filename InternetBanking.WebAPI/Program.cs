@@ -1,4 +1,5 @@
 using InternetBanking.Infrastructure.Persistence;
+using InternetBanking.WebAPI.Extensions;
 
 namespace InternetBanking.WebAPI
 {
@@ -15,19 +16,28 @@ namespace InternetBanking.WebAPI
             builder.Services.AddPersistenceLayer(builder.Configuration);
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddHealthChecks();
+            builder.Services.AddSwaggerExtension();
+            builder.Services.AddApiVersioningExtension();
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
+            app.UseSwaggerExtension();
             app.UseAuthorization();
+            app.UseHealthChecks("/health");
 
 
             app.MapControllers();

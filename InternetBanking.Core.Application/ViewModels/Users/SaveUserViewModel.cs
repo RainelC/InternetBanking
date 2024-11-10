@@ -1,6 +1,6 @@
 ﻿using InternetBanking.Core.Domain.Entities;
 
-namespace InternetBanking.Core.Application.ViewModels.User
+namespace InternetBanking.Core.Application.ViewModels.Users
 {
     public class SaveUserViewModel
     {
@@ -11,8 +11,8 @@ namespace InternetBanking.Core.Application.ViewModels.User
         public string Cedula { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
         public string UserType { get; set; }
         public bool IsActivate { get; set; }
-        public List<Product> products { get; set; }
     }
 }
