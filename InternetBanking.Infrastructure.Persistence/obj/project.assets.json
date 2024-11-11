@@ -3045,7 +3045,7 @@
       "projectName": "InternetBanking.Infrastructure.Persistence",
       "projectPath": "C:\\Users\\Rainel\\Source\\Repos\\InternetBankingFinal\\InternetBanking.Infrastructure.Persistence\\InternetBanking.Infrastructure.Persistence.csproj",
       "packagesPath": "C:\\Users\\Rainel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rainel\\Source\\Repos\\InternetBankingFinal\\InternetBanking.Infrastructure.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Rainel\\source\\repos\\InternetBankingFinal\\InternetBanking.Infrastructure.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rainel\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -962,7 +962,7 @@
       "projectName": "InternetBanking.Core.Application",
       "projectPath": "C:\\Users\\Rainel\\Source\\Repos\\InternetBankingFinal\\InternetBanking.Core.Application\\InternetBanking.Core.Application.csproj",
       "packagesPath": "C:\\Users\\Rainel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rainel\\Source\\Repos\\InternetBankingFinal\\InternetBanking.Core.Application\\obj\\",
+      "outputPath": "C:\\Users\\Rainel\\source\\repos\\InternetBankingFinal\\InternetBanking.Core.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rainel\\AppData\\Roaming\\NuGet\\NuGet.Config",

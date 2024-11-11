@@ -35,7 +35,7 @@ namespace InternetBanking.WebAPI
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
-            app.UseSwaggerExtension();
+            app.UseSwaggerExtension(app);
             app.UseAuthorization();
             app.UseHealthChecks("/health");
 

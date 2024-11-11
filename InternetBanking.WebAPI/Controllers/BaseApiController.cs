@@ -5,7 +5,7 @@ namespace InternetBanking.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HomeController : ControllerBase
+    public class BaseApiController : ControllerBase
     {
     }
 }
