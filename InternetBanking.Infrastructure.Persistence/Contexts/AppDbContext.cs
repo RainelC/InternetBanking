@@ -39,11 +39,39 @@ namespace InternetBanking.Infrastructure.Persistence.Contexts
             #region Relationships
 
             modelBuilder.Entity<User>()
-                .HasMany<Product>(user => user.products)
-                .WithOne(product => product.user)
-                .HasForeignKey(product => product.userID)
+                .HasMany<Product>(user => user.Products)
+                .WithOne(product => product.User)
+                .HasForeignKey(product => product.UserID)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            #endregion
+
+            #region Property Configurations
+
+            modelBuilder.Entity<User>()
+                .Property(user => user.UserName)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<User>()
+                .Property(user => user.Password)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Property(user => user.FirstName)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Property(user => user.LastName)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+                .Property(user => user.Email)
+                .IsRequired();
+
+            modelBuilder.Entity<User>()
+               .Property(user => user.Cedula)
+               .IsRequired();
             #endregion
         }
     }

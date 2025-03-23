@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using InternetBanking.Core.Application.Interfaces.Repositories;
 using InternetBanking.Core.Application.Interfaces.Services;
-using InternetBanking.Core.Application.ViewModels.Product;
+using InternetBanking.Core.Application.ViewModels.Products;
 using InternetBanking.Core.Domain.Entities;
 
 namespace InternetBanking.Core.Application.Services

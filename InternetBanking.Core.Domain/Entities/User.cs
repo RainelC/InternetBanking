@@ -1,5 +1,4 @@
-﻿using InternetBanking.Core.Domain.Common;
-using System.Net.Http.Headers;
+﻿using System.Net.Http.Headers;
 
 namespace InternetBanking.Core.Domain.Entities
 {

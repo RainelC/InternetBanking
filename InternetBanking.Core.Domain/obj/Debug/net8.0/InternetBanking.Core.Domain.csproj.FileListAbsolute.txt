@@ -10,3 +10,15 @@ C:\Users\valer\source\repos\InternetBanking\InternetBanking.Core.Domain\obj\Debu
 C:\Users\valer\source\repos\InternetBanking\InternetBanking.Core.Domain\obj\Debug\net8.0\refint\InternetBanking.Core.Domain.dll
 C:\Users\valer\source\repos\InternetBanking\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.pdb
 C:\Users\valer\source\repos\InternetBanking\InternetBanking.Core.Domain\obj\Debug\net8.0\ref\InternetBanking.Core.Domain.dll
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.AssemblyInfo.cs
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.sourcelink.json
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\bin\Debug\net8.0\InternetBanking.Core.Domain.deps.json
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\bin\Debug\net8.0\InternetBanking.Core.Domain.dll
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\bin\Debug\net8.0\InternetBanking.Core.Domain.pdb
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.dll
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\refint\InternetBanking.Core.Domain.dll
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\InternetBanking.Core.Domain.pdb
+C:\Users\Rainel\Source\Repos\InternetBankingFinal\InternetBanking.Core.Domain\obj\Debug\net8.0\ref\InternetBanking.Core.Domain.dll
